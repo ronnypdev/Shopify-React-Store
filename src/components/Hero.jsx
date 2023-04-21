@@ -1,7 +1,11 @@
 import React from 'react'
 
-export const Hero = () => {
+export default function Hero() {
   return (
-    <div>Hero</div>
+    <>
+      <section className="Hero">
+
+      </section>
+    </>
   )
 }

@@ -5,7 +5,7 @@ export default function HelloWorld() {
 
   return (
     <button onClick={() => setCount((count) => count + 1)}>
-      Counterz <output>{count}</output>
+      Counter <output>{count}</output>
     </button>
   )
 }
